@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCV", "VCV\VCV.csproj", "{AD2A6886-D640-4184-8A33-10563D6468F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest", "Rest\Rest.csproj", "{12FB86F1-550A-4746-95A0-D656E889D695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCV.Tests", "VCV.Tests\VCV.Tests.csproj", "{B30B853F-B1C3-441D-A11F-D459BC468BF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16BDBA97-812A-4728-95F9-9F85A417EF53}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		VCV.vsmdi = VCV.vsmdi
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Geospatial", "GeospatialHelper\Geospatial.fsproj", "{497D6083-96D7-475A-A1CD-DD1B0198A9A5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GeospatialHelper\\Geospatial.fsproj
+		SccProjectName1 = GeospatialHelper
+		SccLocalPath1 = GeospatialHelper
+		SccProjectUniqueName2 = Rest\\Rest.csproj
+		SccProjectName2 = Rest
+		SccLocalPath2 = Rest
+		SccProjectUniqueName3 = VCV.Tests\\VCV.Tests.csproj
+		SccProjectName3 = VCV.Tests
+		SccLocalPath3 = VCV.Tests
+		SccProjectUniqueName4 = VCV\\VCV.csproj
+		SccProjectName4 = VCV
+		SccLocalPath4 = VCV
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VCV.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD2A6886-D640-4184-8A33-10563D6468F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2A6886-D640-4184-8A33-10563D6468F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2A6886-D640-4184-8A33-10563D6468F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2A6886-D640-4184-8A33-10563D6468F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FB86F1-550A-4746-95A0-D656E889D695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FB86F1-550A-4746-95A0-D656E889D695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FB86F1-550A-4746-95A0-D656E889D695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FB86F1-550A-4746-95A0-D656E889D695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30B853F-B1C3-441D-A11F-D459BC468BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30B853F-B1C3-441D-A11F-D459BC468BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30B853F-B1C3-441D-A11F-D459BC468BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30B853F-B1C3-441D-A11F-D459BC468BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497D6083-96D7-475A-A1CD-DD1B0198A9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497D6083-96D7-475A-A1CD-DD1B0198A9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497D6083-96D7-475A-A1CD-DD1B0198A9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497D6083-96D7-475A-A1CD-DD1B0198A9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
